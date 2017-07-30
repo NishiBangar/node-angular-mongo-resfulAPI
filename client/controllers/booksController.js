@@ -31,7 +31,7 @@ myApp.controller('BooksController',['$scope','$http','$location','$routeParams',
 		 
 		$http.post('/api/books',$scope.book).then(function(successResponse){
 			$scope.book = successResponse.data;
-			
+			window.location.href='#/books';
 		
 		},function(errorResponse){
 			alert("Server Error");
