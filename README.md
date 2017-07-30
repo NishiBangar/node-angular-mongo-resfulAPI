@@ -26,7 +26,7 @@ The actual video is explained by Travery media. You can find this video in the f
        npm install 
 3. Next, navigate to *client/* folder (front-end implementation) from your terminal. You will find a Bower file, **bower.json**. Now run the following command to install libraries that supports front-end.
         
-       bower intall
-4. Finally, enter the address *localhost:300* in your preferred browser, this will render the homepage of BookStore application.
+       bower install
+4. Finally, enter the address *localhost:3000* in your preferred browser, this will render the homepage of BookStore application.
 
 Voilà! Bonne Chance!
