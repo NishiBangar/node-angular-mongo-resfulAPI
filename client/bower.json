@@ -1,0 +1,16 @@
+{
+  "name": "bookstore",
+  "homepage": "https://github.com/NishiBangar/node-angular-mongo-resfulAPI",
+  "authors": [
+    "Nishi Bangar"
+  ],
+  "description": "Siple Bookstore application",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "*",
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "bootstrap": "^3.3.7"
+  }
+}

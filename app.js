@@ -3,6 +3,12 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 
+// ***********************************************************
+// Specify the Static/Public directory (Client implementation) 
+app.use(express.static(__dirname+'/client'));
+// ***********************************************************
+
+
 // Middleware to the Body-Parser
 app.use(bodyParser.json());
 
