@@ -1,0 +1,25 @@
+{
+  "name": "node-angular-mongo-restfulapi",
+  "version": "1.0.0",
+  "description": "Simple Bookstore application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "*",
+    "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NishiBangar/node-angular-mongo-resfulAPI.git"
+  },
+  "author": "Nishi Bangar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NishiBangar/node-angular-mongo-resfulAPI/issues"
+  },
+  "homepage": "https://github.com/NishiBangar/node-angular-mongo-resfulAPI#readme"
+}
