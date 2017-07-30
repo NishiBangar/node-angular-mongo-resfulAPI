@@ -1,9 +1,9 @@
 var myApp = angular.module("myApp",['ngRoute']);
 
-//To change the default for hash-bang urls (AngularJS 1.6) in the $location service.
+// To change to the default for hash-bang urls (AngularJS 1.6) in the $location service.
 myApp.config(['$locationProvider',function($locationProvider){
 	$locationProvider.hashPrefix('');
-}]);
+}// *********************************************************************************
 
 myApp.config(function($routeProvider){
 	$routeProvider.when('/',{
